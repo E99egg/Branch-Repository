@@ -10,9 +10,9 @@ def partition(l, r, nums):
     nums[ptr], nums[r] = nums[r], nums[ptr]
     return ptr
  
-# With quicksort() function, we will be utilizing the above code to obtain the pointer
-# at which the left values are all smaller than the number at pointer index and vice versa
-# for the right values.
+# Quicksort() 함수와 함께 위의 코드를 사용하여 포인터를 얻을 것임
+# 이 포인터는 포인터 인덱스에 있는 숫자보다 작은 값들은 모두 왼쪽에 위치하고
+# 포인터 인덱스에 있는 숫자보다 큰 값들은 모두 오른쪽에 위치하도록 함
  
  
 def quicksort(l, r, nums):
